@@ -1,0 +1,11 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "env": {
+    "browser": true,
+    "es2022": true
+  },
+  "plugins": ["react", "unicorn", "typescript", "oxc"],
+  "options": {
+    "maxWarnings": 0
+  }
+}
